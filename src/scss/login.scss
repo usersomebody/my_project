@@ -1,0 +1,492 @@
+.content{
+	width:100%;
+	// position: relative;
+	height:700px;
+	.login{
+		width:40%;
+		padding:0 5%;
+        // background:red;
+        float:left;
+        height:650px;
+        h2{
+        	font-size:28px;
+        	color:#00559a;
+            font-weight:600;
+            padding:34px 0 20px 0;
+        }
+        h3{
+        	font-size:18px;
+        	color:#00539c;
+        	line-height:18px;
+        	font-weight:normal;
+        	margin-bottom:10px;
+        }
+        p{
+        	margin-bottom:10px;
+        	font-size:14px;
+        	line-height:14px;
+        	color:#939390;
+        }
+        form{
+        	padding:20px 40px;
+        	.login_user{
+        		margin-bottom:20px;
+        		font-size:14px;
+	        	input{
+	        		width:197px;
+	        		height:35px;
+	        		border:none;
+	        		border:1px solid #ccc;
+	        		border-radius:5px;
+	        		outline:medium;
+	        		padding:0 50px 0 13px;
+	        		margin-bottom:5px;
+	        	}
+	        }
+	        .login_pass{
+	        	padding-left:30px;
+	        	font-size:14px;
+	        	input{
+	        		width:197px;
+	        		height:35px;
+	        		border:none;
+	        		border:1px solid #ccc;
+	        		border-radius:5px;
+	        		outline:medium;
+	        		padding:0 50px 0 13px;
+	        		margin-bottom:5px;
+	        	}
+	        }	
+	        .pass_box{
+	        	overflow:hidden;
+	        	width:280px;
+	        	padding:20px 60px;
+	        	.f_word{
+	        		float:left;
+	        		a{
+	        			border-bottom:1px solid #58595b;
+	        			font-size:12px;
+	        			line-height:12px;
+	        			color:#58595b;
+	        		}
+	        	}
+	        	.r_word{
+	        		float:right;
+	        		margin-right: 10px;
+	        		a{
+                      font-size:12px;
+	        		  line-height:12px;
+	        		  color:#58595b;
+	        		}
+	        		.checkbox{
+	        			width:18px;
+	        			height:18px;
+	        			border:1px solid #ccc;
+	        			border:none;
+	        			vertical-align:middle;
+	        		}
+	        	}
+	        }
+	        .login_button_01{
+	        	overflow:hidden;
+	        	text-align:center;
+	        	padding-left:60px;
+		        .login_button{
+		        	width:163px;
+		        	height:40px;
+		        	background:#00559a;
+		        	color:white;
+		        	font-size:14px;
+		        	border-radius:3px;
+		        	border:none;
+
+		        }
+		    }
+        }
+        h5{
+		    	font-weight:normal;
+		    	text-align:center;
+		    	margin:15px 0;
+		    	font-size:14px;
+		    	color:#939090;
+		    	margin-left:60px;
+		    }
+		.login_m{
+		    	text-align:center;
+		    	color:#00559a;
+		    	margin-left:60px;
+		    	i{
+		    		font-size:22px;
+		    		margin-right:10px;		    		
+		    	}
+		    }
+	}
+	.register{
+		width:40%;
+		float:left;
+		height:650px;
+		// padding:0 5%;
+		padding-right:10%;
+		.register_box{
+			margin-top:100px;
+			padding: 0 4% 10px 4%;
+			background:#f6f6f6;
+			height:500px;
+            .register_header{
+            	padding:30px 0 24px 0;
+            	h3{
+            		font-weight:600;
+            		font-size:18px;
+            		line-height:18px;
+            		color:#e30543;
+            	}
+            	p{
+            		color:#939090;
+            		font-size:14px;
+            		line-height:14px;
+            		margin-top:10px;
+            	}
+            }
+            form{
+            	// text-aling:center;
+            	.register_iphone{
+            		position: relative;
+            		margin-left:13px;
+            		span{
+            			font-size:14px;
+            			color:black;
+            		}
+            		input{
+            			width:195px;
+                        padding: 0 50px 0 13px;
+                        height:40px;
+                        border:none;
+                        border:1px solid #ccc;
+                        outline:medium;
+                        border-radius:3px;
+            		}
+            	}
+            	.register_check{
+            		position: relative;
+            		margin:20px 0 20px 28px;
+            		span{
+
+            			font-size:14px;
+            			color:black;
+            		}
+            		input{
+    
+            			width:75px;
+                        padding: 0 50px 0 13px;
+                        height:40px;
+                        border:none;
+                        border:1px solid #ccc;
+                        outline:medium;
+                        border-radius:3px;
+            		}
+            		.getMa{
+            			float:right;
+                        margin-right:34%;
+            			width:80px;
+            			height:40px;
+            			background:#eee;
+            			text-align:center;
+            			line-height:40px;
+            			color:#e30543;
+            			font-size:16px;
+            			cursor:pointer;
+            		}
+            	}
+            	.register_check_iphone{
+                        position: relative;
+            		span{
+            			font-size:14px;
+            			color:black;
+            		}
+            		input{
+
+            			width:79px;
+                        padding: 0 50px 0 13px;
+                        height:40px;
+                        border:none;
+                        border:1px solid #ccc;
+                        outline:medium;
+                        border-radius:3px;
+            		}
+            		.postMa{
+            			float:right;
+                         margin-right:24%;
+            			width:112px;
+            			height:40px;
+            			border:2px solid #00539c;
+            			color:#00539c;
+            			text-align:center;
+            			font-size:12px;
+            			line-height:40px;
+            		}
+            	}
+            	.register_word{
+            		position: relative;
+            		margin:20px 0 20px 42px;
+                    span{
+            			font-size:14px;
+            			color:black;
+            		}
+            		input{
+            			width:197px;
+                        padding: 0 50px 0 13px;
+                        height:40px;
+                        border:none;
+                        border:1px solid #ccc;
+                        outline:medium;
+                        border-radius:3px;
+            		}
+            	}
+            	.register_word_sure{
+            		position: relative;
+            		margin-left:13px;
+            		span{
+            			font-size:14px;
+            			color:black;
+            		}
+            		input{
+            			width:197px;
+                        padding: 0 50px 0 13px;
+                        height:40px;
+                        border:none;
+                        border:1px solid #ccc;
+                        outline:medium;
+                        border-radius:3px;
+            		}
+            	}
+            	.ruler{
+            		// text-align:center;
+            		width:230px;
+            		font-size:12px;
+            		color:#58595b;
+            		margin:17px 81px;
+            		input{
+            			width:16px;
+            			height:16px;
+            			vertical-align:bottom;
+            			border:none;
+            			border:1px solid #eee;
+            		}
+            		a{
+            			color:#e6003e;
+            			text-decoration:underline;
+            		}
+            	}
+            	.bt_register{
+            		text-align:center;
+            		input{
+            			width:163px;
+            			height:40px;
+            			background: #00559a;
+            			border-radius:3px;
+            			border:none;
+            			color:white;
+            			text-align:center;
+            		}
+            	}
+            }
+		}
+	}
+}
+
+//忘记密码
+.content_forget{
+    display:none;
+    position: fixed;
+    // height:700px;
+    left:35%;
+    top:0;
+    border:1px solid #ccc;
+    border-radius:5px;
+    z-index:999;
+    .register{
+        width:435px;
+        float:left;
+        // height:650px;
+        .register_box{
+            padding: 0 20px 10px 20px;
+            background:#fff;
+            height:500px;
+            .register_header{
+                padding:30px 0 24px 0;
+                h3{
+                    font-weight:600;
+                    font-size:18px;
+                    line-height:18px;
+                    text-align:center;
+                    color:black;
+                }
+                p{
+                    color:#ec003d;
+                    font-size:30px;
+                    line-height:14px;
+                    margin-top:10px;
+                    float:right;
+                    cursor:pointer;
+                }
+            }
+            form{
+                // text-aling:center;
+                .register_iphone{
+                    position: relative;
+                    margin-left:13px;
+                    span{
+                        font-size:14px;
+                        color:black;
+                    }
+                    input{
+                        width:195px;
+                        padding: 0 50px 0 13px;
+                        height:40px;
+                        border:none;
+                        border:1px solid #ccc;
+                        outline:medium;
+                        border-radius:3px;
+                    }
+                }
+                .register_check{
+                    position: relative;
+                    margin:20px 0 20px 28px;
+                    span{
+
+                        font-size:14px;
+                        color:black;
+                    }
+                    input{
+    
+                        width:75px;
+                        padding: 0 50px 0 13px;
+                        height:40px;
+                        border:none;
+                        border:1px solid #ccc;
+                        outline:medium;
+                        border-radius:3px;
+                    }
+                    .getMa{
+                        float:right;
+                        margin-right:22%;
+                        width:80px;
+                        height:40px;
+                        background:#eee;
+                        text-align:center;
+                        line-height:40px;
+                        color:#e30543;
+                        font-size:16px;
+                        cursor:pointer;
+                    }
+                }
+                .register_check_iphone{
+                        position: relative;
+                    span{
+                        font-size:14px;
+                        color:black;
+                    }
+                    input{
+
+                        width:79px;
+                        padding: 0 50px 0 13px;
+                        height:40px;
+                        border:none;
+                        border:1px solid #ccc;
+                        outline:medium;
+                        border-radius:3px;
+                    }
+                    .postMa{
+                        float:right;
+                        margin-right:12%;
+                        width:112px;
+                        height:40px;
+                        border:2px solid #00539c;
+                        color:#00539c;
+                        text-align:center;
+                        font-size:12px;
+                        line-height:40px;
+                    }
+                }
+                .register_word{
+                    position: relative;
+                    margin:20px 0 20px 42px;
+                    span{
+                        font-size:14px;
+                        color:black;
+                    }
+                    input{
+                        width:197px;
+                        padding: 0 50px 0 13px;
+                        height:40px;
+                        border:none;
+                        border:1px solid #ccc;
+                        outline:medium;
+                        border-radius:3px;
+                    }
+                }
+                .register_word_sure{
+                    position: relative;
+                    margin-left:13px;
+                    span{
+                        font-size:14px;
+                        color:black;
+                    }
+                    input{
+                        width:197px;
+                        padding: 0 50px 0 13px;
+                        height:40px;
+                        border:none;
+                        border:1px solid #ccc;
+                        outline:medium;
+                        border-radius:3px;
+                    }
+                }
+                .ruler{
+                    // text-align:center;
+                    width:230px;
+                    font-size:12px;
+                    color:#58595b;
+                    margin:17px 81px;
+                    input{
+                        width:16px;
+                        height:16px;
+                        vertical-align:bottom;
+                        border:none;
+                        border:1px solid #eee;
+                    }
+                    a{
+                        color:#e6003e;
+                        text-decoration:underline;
+                    }
+                }
+                .bt_register{
+                    text-align:center;
+                    input{
+                        width:163px;
+                        height:40px;
+                        background: #00559a;
+                        border-radius:3px;
+                        border:none;
+                        color:white;
+                        text-align:center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.zdc{
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    opacity:0.3;
+    filter:alpha(opacity=30);
+    -moz-opacity:0.5;
+    background:#656353;
+    display:none;
+    z-index:500;
+}
